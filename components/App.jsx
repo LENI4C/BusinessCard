@@ -41,7 +41,7 @@ const UserInfo = () => {
 const ExtraInfo = () => {
     return (
         <>
-            <div className="about-section">
+            <div className="about-section section">
                 <h3>About</h3>
                 <span>
                     I am a front end developer with a particular interest in
@@ -50,7 +50,7 @@ const ExtraInfo = () => {
                     looking for new things to learn
                 </span>
             </div>
-            <div className="interest-section">
+            <div className="interest-section section">
                 <h3>Interests</h3>
                 <span>
                     Food Expert, Music Scholar, Reader, Internet Fanatic, Bacon

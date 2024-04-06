@@ -1,16 +1,7 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
-
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -20,43 +11,39 @@
 }
 
 body {
-    background-color: violet;
-    min-height: 150vh;
     display: flex;
-    justify-content: center;
+    min-height: 150vh;
     align-items: center;
+    justify-content: center;
+    background-color: violet;
 }
 
 .card {
-    background-color: bisque;
+    scale: 0.5;
+    width: 400px;
     height: 145vh;
-    width: 300px;
     text-align: center;
-    /* scale: 0.5; */
-}
-
-.card-image,
-.user-info {
-    border: 5px solid gold;
-    margin-bottom: 0.2em;
 }
 
 .card-image {
+    height: 35%;
+    overflow: hidden;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    overflow: hidden;
-    height: 35%;
 }
 
 .card-image img {
-    object-position: center center;
-    /* height: 100%; */
     width: 100%;
+}
+
+.info {
+    background-color: bisque;
 }
 
 .profile-btn {
     border: 3px solid pink;
     padding: 0.5em 1em;
+    margin-block: 1.5em;
 }
 
 .user-info-btn {
@@ -64,7 +51,9 @@ body {
     justify-content: space-around;
 }
 
-.extra-info {
+.section {
+    margin: auto;
+    max-width: 90%;
     text-align: left;
 }
 
