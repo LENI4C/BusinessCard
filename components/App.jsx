@@ -5,6 +5,7 @@ export const Card = () => {
         <div className="card">
             <CardImage />
             <Info />
+            <Footer />
         </div>
     );
 };
@@ -70,5 +71,13 @@ const Info = () => {
         </div>
     );
 };
+
+const Footer = () => {
+    return(
+        <footer>
+            <img src="../src/assets/icons/ig-icon.png" alt="" />
+        </footer>
+    )
+}
 
 export default Card;
