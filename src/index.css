@@ -36,14 +36,18 @@ body {
     width: 100%;
 }
 
+.profile-btn {
+    border: 3px solid pink;
+    padding: 0.5em 1em;
+    margin-block: .5em;
+}
+
 .info {
     background-color: bisque;
 }
 
-.profile-btn {
-    border: 3px solid pink;
-    padding: 0.5em 1em;
-    margin-block: 1.5em;
+.user-info {
+    padding-top: .6em;
 }
 
 .user-info-btn {
@@ -52,7 +56,7 @@ body {
 }
 
 .section {
-    margin: auto;
+    margin: 1em auto;
     max-width: 90%;
     text-align: left;
 }
