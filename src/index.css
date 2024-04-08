@@ -12,24 +12,16 @@
 
 body {
     display: flex;
-    min-height: 150vh;
-    align-items: center;
+    /* height: 100vh; */
+    /* align-items: center; */
     justify-content: center;
     background-color: violet;
 }
 
 .card {
-    scale: 0.5;
-    width: 400px;
-    height: 145vh;
+    scale: 0.6;
+    max-width: 500px;
     text-align: center;
-}
-
-.card-image {
-    height: 35%;
-    overflow: hidden;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
 }
 
 .card-image img {
@@ -63,6 +55,9 @@ body {
 
 footer {
     background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
 }
 
 @media (prefers-color-scheme: light) {

@@ -11,10 +11,9 @@ export const Card = () => {
 };
 
 const CardImage = () => {
-    const imagePath = "../src/assets/images/avatar.png";
     return (
         <div className="card-image">
-            <img src={imagePath} alt="userAvatar" />
+            <img src="../src/assets/images/avatar.png" alt="userAvatar" />
         </div>
     );
 };
@@ -75,7 +74,10 @@ const Info = () => {
 const Footer = () => {
     return(
         <footer>
-            <img src="../src/assets/icons/ig-icon.png" alt="" />
+            <img src="../src/assets/icons/ig-icon.png" alt="instagram icon" />
+            <img src="../src/assets/icons/fb-icon.png" alt="facebook icon" />
+            <img src="../src/assets/icons/git-icon.png" alt="github icon" />
+            <img src="../src/assets/icons/twitter-icon.png" alt="twitter icon" />
         </footer>
     )
 }
