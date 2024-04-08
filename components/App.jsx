@@ -13,7 +13,7 @@ export const Card = () => {
 const CardImage = () => {
     return (
         <div className="card-image">
-            <img src="../public/assets/images/avatar.png" alt="userAvatar" />
+            <img src="/assets/images/avatar.png" alt="userAvatar" />
         </div>
     );
 };
@@ -74,10 +74,10 @@ const Info = () => {
 const Footer = () => {
     return(
         <footer>
-            <img src="../public/assets/icons/ig-icon.png" alt="instagram icon" />
-            <img src="../public/assets/icons/fb-icon.png" alt="facebook icon" />
-            <img src="../public/assets/icons/git-icon.png" alt="github icon" />
-            <img src="../public/assets/icons/twitter-icon.png" alt="twitter icon" />
+            <img src="/assets/icons/ig-icon.png" alt="instagram icon" />
+            <img src="/assets/icons/fb-icon.png" alt="facebook icon" />
+            <img src="/assets/icons/git-icon.png" alt="github icon" />
+            <img src="/assets/icons/twitter-icon.png" alt="twitter icon" />
         </footer>
     )
 }
